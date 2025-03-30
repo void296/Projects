@@ -1,0 +1,78 @@
+/* TORRENT GENERAL INFORMATION */
+
+#downloadbox {
+min-height: 45px;
+padding: .75em;
+background-color: #eff3fb;
+border: 1px solid #8ba7cd;
+}
+
+#downloadbox img {
+float: left;
+margin-right: .5em;
+}
+
+#downloadbox h2 {
+display: inline;
+margin: 0;
+}
+
+#downloadbox p { margin: .5em 0 0; }
+
+#torrentgeneral {
+float: right;
+width: 100%;
+line-height: 2em;
+margin-bottom: 1em;
+}
+
+#torrentgeneral p {
+float: left;
+width: 45%;
+}
+
+#torrentgeneral p.left {
+border-right: 1px solid #000;
+padding-right: 1em;
+}
+
+#torrentgeneral p.right { margin-left: 1em; }
+
+#torrentgeneral strong {
+float: left;
+width: 10em;
+}
+
+#torrentgeneral a.emphasis { font-weight: bold; }
+
+#torrentgeneral img { vertical-align: middle; }
+
+#altdownload { clear: left; }
+
+#altdownload .emphasis {
+color: #000;
+font-weight: bold;
+}
+
+#description {
+padding: 1em;
+border: 1px dashed #000;
+white-space: pre-wrap;
+}
+
+.bar-container {
+    display: inline-block;
+    width: 60px; /* Adjust the size as needed */
+    height: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    margin-right: 5px; /* Space before the text */
+    vertical-align: middle;
+}
+
+.bar-fill {
+    height: 100%;
+    display: block;
+}
